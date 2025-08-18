@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <fieldset style="background-color: aqua;">
+    <form action="@" method="post" style="width: 400px;"">
+    <table>
+        <h1>Gujarat university</h1>
+
+        <label for="name">Full name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label for="tel">namber:</label><br>
+        <input type="tel" id="tel" maxlength="10" pattern="[0-9]{3}[0-9]{4}[0-9]{3}" minlength="10%"><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <select name="Subject" id="Subject">
+
+        <option value="select a subject">select a subject</option>
+        <option value="B.COM">"B.COM</option>
+        <option value="BCA">BCA</option>
+        <Option value="BBA".>BBA</Option>
+        <Option value="BA">"BA"</Option>
+        <Option value="medical">medical</Option>
+        <option value="B ED">B ED</option>
+        <OPtion value="DENTAL">DENTAL</OPtion>
+        <Option value="Blib.sic">Blib.sic</Option>
+        <option value="homeopathy">homeopathy</option>
+        </select><br><br>
+        
+        <label for="Message">Message:</label><br>    
+        <textarea name="text" id="Message"></textarea><br><br>
+
+        <input type="submit" id="submit">
+
+       </form>
+    </fieldset>
+</body>
+</html>
